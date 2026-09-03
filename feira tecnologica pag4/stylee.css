@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pag4{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.esquerda{
+    flex: 1;
+    background: linear-gradient(45deg, #60D2FF 0%, #484C98 50%, #691919 100%);
+    padding: 60px;
+}
+
+.direita{
+    flex: 1;
+    background-color: #6b1724;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direita img {
+    width: 400px;
+    height: auto;
+}
+
+h1{
+    padding: 15px;
+    font-size: 46px;
+    margin-bottom: 50px;
+    color: white;
+}   
+
+.p1,
+.p2 {
+    font-size: 27px;
+    max-width: 500px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.circulo{
+width: 100px;
+height: 100px;
+background-color: white;
+border-radius: 50%;
+position: absolute;
+right: 90px;
+top: 560px;
+}
