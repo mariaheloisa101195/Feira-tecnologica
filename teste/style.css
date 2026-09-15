@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pag9{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.direita{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.seta-esquerda {
+    position: absolute;
+    top: 70px; /* posicionamento da seta */
+    left: 130px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.seta-vermelha {
+    display: inline-block;
+    width: 100px; /* comprimento */
+    height: 6px; /* Espessura da linha horizontal  */
+    background-color: #691919; 
+    position: relative;
+}
+
+.seta-vermelha::before {
+    content: '';
+    position: absolute; /* alinhar  */
+    top: 50%;
+    left: 0;
+    width: 30px; /* Tamanho das abas da ponta */
+    height: 30px;
+    border-top: 7px solid #691919;    /* Cria as linhas finas apenas no topo e na esquerda */
+    border-left: 7px solid #691919;
+    transform: translateY(-50%) rotate(-45deg);/* Rotaciona o quadrado para virar uma ponta de seta (<) */
+    transform-origin: center;    /* Garante que a rotação comece exatamente do bico esquerdo */
+}
